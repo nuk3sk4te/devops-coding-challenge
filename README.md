@@ -1,4 +1,4 @@
-# DevOps Interview Test: Design a CI/CD Pipeline for a Django Repository
+# DevOps Interview Test: Design a CI/CD Pipeline for a Django Project
 
 ### Introduction
 
@@ -8,16 +8,16 @@ For context, let’s imagine that the Django Team has started working on a proje
 
 Your task is to clone the provided Django repository, create the CI/CD pipeline, and then grant us access to the repository.
 
-The test is vague on purpose, we want you to design the pipeline based on what you think that should happen from start to finish.
+The test is vague on purpose, we want you to design the pipeline based on what you think should happen from start to finish.
 
-Feel free to include integrations with any third party software that you think it would be useful.
+Feel free to include integrations with any third party software that you think would be useful.
 
 ### Prerequisites
 
 - A Github account
 - Familiarity with Github Actions
-- Familiarity with Django
-- Basic understanding of Docker
+- Basic knowledge of Python-based web applications
+- Familiarity with Docker
 
 ### Instructions
 1. Clone this repo
@@ -30,7 +30,7 @@ Feel free to include integrations with any third party software that you think i
     ```
     
     
-2. Design the GitLab CI/CD pipelines or Github Actions Workflow
+2. Design the Github Actions Workflow
     
     Create as many Github Workflows as you deem necessary.
     
@@ -42,12 +42,19 @@ Feel free to include integrations with any third party software that you think i
     
 3. Commit and push your changes
 
+### Objectives
+
+As you've already seen, this challenge is quite open-ended, we are specially interested in what you would do in a situation like this and don't want to limit you by choosing a specific path for you.
+The end goal is to create a pipeline that ends up pushing an image to a registry, it's perfectly fine if you push it to a public registry, as there isn't any sensitive information on this repository.
+As long as you reach that goal, feel free to choose any path that leads you there.
 
 ### Optional: Deployment Suggestions
 
 As an optional step, you can include a brief description of how and where you would deploy the Django application. Some examples of deployment options include cloud platforms like AWS, Google Cloud Platform, or Microsoft Azure, as well as on-premises or self-hosted environments.
 
 Feel free to describe any specific services, configurations, or best practices you would use for deploying the Django application.
+
+We don't expect a working terraform project, just an outline of the services/technologies.
 
 ### Deliverables
 
