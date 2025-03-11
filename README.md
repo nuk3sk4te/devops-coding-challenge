@@ -20,14 +20,20 @@ Feel free to include integrations with any third party software that you think w
 - Familiarity with Docker
 
 ### Instructions
-1. Clone this repo
+1.  Get a private copy of the challenge.
+
+    Github does not allow private forks of public repositories so you can either:
+    * Create a new private repo under your github username and push our challenge to your own repo
+    * Use Github's import: https://github.com/new/import 
     
-    The first step is to clone the provided Django repository. You can find the repository at:
+    You can find the repository at:
     
     ```
     <https://github.com/mrmilu/devops-coding-challenge>
     
     ```
+
+    This way, you will have a private copy of this challenge to work on.
     
     
 2. Design the Github Actions Workflow
