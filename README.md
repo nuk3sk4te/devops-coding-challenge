@@ -64,8 +64,8 @@ We don't expect a working terraform project, just an outline of the services/tec
 
 ### Deliverables
 
-- A cloned Django repository containing your designed Github Actions workflow(s)
-- Access granted to `iker.blanco@mrmilu.com` to the repo.
+- Your private github repo containing this repo, your changes and your designed Github Actions workflow(s)
+- Access granted to `iker.blanco@mrmilu.com` to your repo.
 - A markdown file named `DECISIONS.md` with an outline of your decisions so we can know why you did (or didn’t) do what you did :)
 - A markdown file named  `TODO.md` with an outline of the things that you would implement, fix, upgrade if you had more time.
 - (Optional) A brief description of your preferred deployment strategy for the Django application
