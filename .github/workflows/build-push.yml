@@ -18,6 +18,6 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
       - name: Build and push Docker image
         run: |
-          docker build -t vov-django-app .
+          docker build -t vov-django-app compose/local/django/Dockerfile
           docker tag vov-django-app:latest ${{ secrets.DOCKER_USERNAME }}/vov-django-app:latest
           docker push ${{ secrets.DOCKER_USERNAME }}/vov-django-app:latest
